@@ -1,4 +1,5 @@
 #!/bin/sh
+cd ..
 sudo sh -c "echo 'nameserver 8.8.8.8' > /etc/resolv.conf"
 sudo apt update
 sudo apt install -y mongodb
