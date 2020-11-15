@@ -11,3 +11,6 @@ git clone https://github.com/open5gs/open5gs
 cd open5gs
 meson build --prefix=`pwd`/install
 ninja -C build
+
+cd build
+ninja install
